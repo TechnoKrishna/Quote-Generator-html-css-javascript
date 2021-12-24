@@ -18,4 +18,4 @@ I had a lot of fun building this project and as usual I learned a lot from build
 
 # Live Project
 
-> Check out the results : [getlink](https://technokrishna.github.io/Quote-Generator-html-css-javascript/ "Link") and https://technokrishna.github.io/Quote-Generator-html-css-javascript/>
+> Check out the results : [getlink](https://technokrishna.github.io/Quote-Generator-html-css-javascript/ "Link")>
