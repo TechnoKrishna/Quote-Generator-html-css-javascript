@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 100%;
+}
 body{
     background: url(IMAGE/bg.jpg);
     color: #000;
@@ -10,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .container{
     width: auto;
@@ -48,5 +52,40 @@ button{
 button:hover{
     filter: brightness(150%);
     color: rgb(49, 173, 173);
+}
+
+/* 768 425 375 320 */
+
+@media only screen and (max-width: 768px)  {
+    html{
+        font-size: 75%;
+    }
+    .container{
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 425px)  {
+    html{
+        font-size: 65%;
+    }
+    .container{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 375px)  {
+    html{
+        font-size: 55%;
+    }
+    .container{
+        max-width: 350px;
+    }
+}
+@media only screen and (max-width: 320px)  {
+    html{
+        font-size: 45%;
+    }
+    .container{
+        max-width: 300px;
+    }
 }
 
