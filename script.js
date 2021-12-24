@@ -22,7 +22,7 @@ function NumberGenerator(){
 
 // GET QUOTE FROM API
 async function getQuote(){
-    const apiUrl = 'http://type.fit/api/quotes';
+    const apiUrl = 'https://type.fit/api/quotes';
     const response = await fetch(apiUrl);
     const data = await response.json();
     // console.log(data);
